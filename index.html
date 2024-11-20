@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <!Why are you looking for its source?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <title>Hackify</title>
     <style>
         body {
@@ -34,9 +35,15 @@
     <p>We don't know each other, but we know our impacts. We do not forgive. We cling to what we desire.</p>
     <p>Wait for us. Be patient...</p>
     <div class="terminal">
-        <p>Initializing system...</p>
+        <p>Initializing system... you are using a <span id="system-info"></span> system</p>
         <p>Accessing files...</p>
         <p>No upcoming attacks found!</p>
     </div>
+
+    <script>
+        // Detect the system
+        const systemInfo = navigator.platform;
+        document.getElementById('system-info').innerText = systemInfo;
+    </script>
 </body>
 </html>
