@@ -1,0 +1,42 @@
+<!Why are you looking for its source?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Hackify</title>
+    <style>
+        body {
+            background-color: #1b1b1b;
+            color: #00ff00;
+            font-family: "Courier New", Courier, monospace;
+            text-align: center;
+            margin: 0;
+        }
+        h1 {
+            font-size: 4em;
+            margin-top: 20vh;
+        }
+        p {
+            font-size: 1.5em;
+        }
+        .terminal {
+            background-color: black;
+            color: green;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hackify</h1>
+    <p>We don't know each other, but we know our impacts. We do not forgive. We cling to what we desire.</p>
+    <p>Wait for us. Be patient...</p>
+    <div class="terminal">
+        <p>Initializing system...</p>
+        <p>Accessing files...</p>
+        <p>No upcoming attacks found!</p>
+    </div>
+</body>
+</html>
