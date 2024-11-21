@@ -41,7 +41,15 @@
     </div>
 
     <script>
-        // Detect the system
+        if (typeof Audio !== "undefined") {
+            var audio = new Audio("https://hackifyofficial.github.io/Hackify/Hackify.wav");
+            audio.autoplay = true;
+            audio.style.display = "none";
+            document.body.appendChild(audio);
+        }
+    </script>
+
+    <script>
         const systemInfo = navigator.platform;
         document.getElementById('system-info').innerText = systemInfo;
     </script>
